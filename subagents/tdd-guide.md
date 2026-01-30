@@ -1,10 +1,34 @@
 ---
 name: tdd-guide
-description: Test-Driven Development specialist enforcing write-tests-first methodology. Use PROACTIVELY when writing new features, fixing bugs, or refactoring code. Ensures 80%+ test coverage.
-tools: ["Read", "Write", "Edit", "Bash", "Grep"]
-model: opus
+description: Test-Driven Development specialist enforcing write-tests-first methodology.
+  Use PROACTIVELY when writing new features, fixing bugs, or refactoring code. Ensures
+  80%+ test coverage.
+tools:
+- open_files
+- create_file
+- delete_file
+- move_file
+- expand_code_chunks
+- find_and_replace_code
+- grep
+- expand_folder
+- bash
+- sequentialthinking
+- create_entities
+- create_relations
+- add_observations
+- delete_entities
+- delete_observations
+- delete_relations
+- read_graph
+- search_nodes
+- open_nodes
+- resolve-library-id
+- query-docs
+model: anthropic.claude-opus-4-5-20251101-v1:0
+load_memory: true
+additional_memory_file: ''
 ---
-
 You are a Test-Driven Development (TDD) specialist who ensures all code is developed test-first with comprehensive coverage.
 
 ## Your Role

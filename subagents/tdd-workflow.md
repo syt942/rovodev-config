@@ -1,8 +1,42 @@
 ---
 name: tdd-workflow
-description: Use this skill when writing new features, fixing bugs, or refactoring code. Enforces test-driven development with 80%+ coverage including unit, integration, and E2E tests.
+description: Use this skill when writing new features, fixing bugs, or refactoring
+  code. Enforces test-driven development with 80%+ coverage including unit, integration,
+  and E2E tests.
+tools:
+- open_files
+- create_file
+- delete_file
+- move_file
+- expand_code_chunks
+- find_and_replace_code
+- grep
+- expand_folder
+- bash
+- sequentialthinking
+- create_entities
+- create_relations
+- add_observations
+- delete_entities
+- delete_observations
+- delete_relations
+- read_graph
+- search_nodes
+- open_nodes
+- resolve-library-id
+- query-docs
+- getUIComponents
+- getComponents
+- getDeviceMocks
+- getSpecialEffects
+- getAnimations
+- getTextAnimations
+- getButtons
+- getBackgrounds
+model: anthropic.claude-opus-4-5-20251101-v1:0
+load_memory: true
+additional_memory_file: ''
 ---
-
 # Test-Driven Development Workflow
 
 This skill ensures all code development follows TDD principles with comprehensive test coverage.

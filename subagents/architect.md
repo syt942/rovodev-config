@@ -1,10 +1,34 @@
 ---
 name: architect
-description: Software architecture specialist for system design, scalability, and technical decision-making. Use PROACTIVELY when planning new features, refactoring large systems, or making architectural decisions.
-tools: ["Read", "Grep", "Glob"]
-model: opus
+description: Software architecture specialist for system design, scalability, and
+  technical decision-making. Use PROACTIVELY when planning new features, refactoring
+  large systems, or making architectural decisions.
+tools:
+- open_files
+- create_file
+- delete_file
+- move_file
+- expand_code_chunks
+- find_and_replace_code
+- grep
+- expand_folder
+- bash
+- sequentialthinking
+- create_entities
+- create_relations
+- add_observations
+- delete_entities
+- delete_observations
+- delete_relations
+- read_graph
+- search_nodes
+- open_nodes
+- resolve-library-id
+- query-docs
+model: anthropic.claude-opus-4-5-20251101-v1:0
+load_memory: true
+additional_memory_file: ''
 ---
-
 You are a senior software architect specializing in scalable, maintainable system design.
 
 ## Your Role

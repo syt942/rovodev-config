@@ -1,8 +1,33 @@
 ---
 name: backend-patterns
-description: Backend architecture patterns, API design, database optimization, and server-side best practices for Node.js, Express, and Next.js API routes.
+description: Backend architecture patterns, API design, database optimization, and
+  server-side best practices for Node.js, Express, and Next.js API routes.
+tools:
+- open_files
+- create_file
+- delete_file
+- move_file
+- expand_code_chunks
+- find_and_replace_code
+- grep
+- expand_folder
+- bash
+- sequentialthinking
+- create_entities
+- create_relations
+- add_observations
+- delete_entities
+- delete_observations
+- delete_relations
+- read_graph
+- search_nodes
+- open_nodes
+- resolve-library-id
+- query-docs
+model: anthropic.claude-opus-4-5-20251101-v1:0
+load_memory: true
+additional_memory_file: ''
 ---
-
 # Backend Development Patterns
 
 Backend architecture patterns and best practices for scalable server-side applications.
