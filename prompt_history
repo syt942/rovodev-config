@@ -1,0 +1,78 @@
+
+# 2026-02-01 06:04:21.638309
++/subagents 
+
+# 2026-02-01 06:06:43.384937
++/subagents 
+
+# 2026-02-01 06:11:34.403173
++/subagents 
+
+# 2026-02-01 06:22:00.253620
++/subagents 
+
+# 2026-02-01 06:28:00.845662
++/subagents 
+
+# 2026-02-01 06:31:03.031346
++/subagents 
+
+# 2026-02-01 06:33:51.185492
++/subagents 
+
+# 2026-02-01 06:41:05.642489
++push to syt942/rovodev-config push using gh cli 
+
+# 2026-02-01 06:42:05.024949
++subagents
+
+# 2026-02-01 06:43:25.973595
++exclude the deleted 
+
+# 2026-02-01 06:50:24.019428
++/sessions 
+
+# 2026-02-01 06:51:32.192232
++push...
+
+# 2026-02-01 06:52:48.988381
++/config 
+
+# 2026-02-01 06:53:17.665793
++/config 
+
+# 2026-02-01 07:01:47.253489
++/memory 
+
+# 2026-02-01 07:58:36.117295
++/config 
+
+# 2026-02-01 08:02:12.666524
++/config 
+
+# 2026-02-01 08:03:28.257880
++see AGENTS.md   use mcps tools memory, sequential thinking, context7 and  use subagents. you don't direct working you use only only all subagents e.g. [Code-reviewer, security-reviewer, coding-standards, tdd-workflow, refactor-cleaner, build-error-resolver, e2e-runner, architect, tdd-guide, backend-patterns, doc-updater, planner and more subagents...] for any  tasks, works.
++Make sure to don't implement (Forgetive Code).
++Make sure to work with TTD (Test Driven Development)
++Make sure to Write Clean Code with Self-Documenting Code.
++Make sure to Unit Testing.
++Make sure to Integration Testing.
++Make sure to E2E (End to End) Testing.
++Make sure to You can't debug bad code, no matter if it's you an AI agent.
++Make sure to Have clarity of System Design.
++Make sure to Keep your code clean.
+
+# 2026-02-01 08:06:28.654963
++Implement all features from AGENTS.md .   use mcps tools memory, sequential thinking, context7 and  use subagents. you don't direct working you use only only all subagents e.g. [Code-reviewer, security-reviewer, coding-standards, tdd-workflow, refactor-cleaner, build-error-resolver, e2e-runner, architect, tdd-guide, backend-patterns, doc-updater, planner and more subagents...] for any  tasks, works.
++Make sure to don't implement (Forgetive Code).
++Make sure to work with TTD (Test Driven Development)
++Make sure to Write Clean Code with Self-Documenting Code.
++Make sure to Unit Testing.
++Make sure to Integration Testing.
++Make sure to E2E (End to End) Testing.
++Make sure to You can't debug bad code, no matter if it's you an AI agent.
++Make sure to Have clarity of System Design.
++Make sure to Keep your code clean.
+
+# 2026-02-01 09:23:46.351612
++push to syt942/rovodev-config push using gh cli

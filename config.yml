@@ -3,15 +3,24 @@ version: 1
 # Agent behavior and model settings
 agent:
   # Additional system prompt to append to the agent's default system prompt
-  additionalSystemPrompt: null
+  additionalSystemPrompt: use mcps tools memory, sequential thinking, context7 and  use
+    subagents. you don't direct working you use only only all subagents e.g. [Code-reviewer,
+    security-reviewer, coding-standards, tdd-workflow, refactor-cleaner, build-error-resolver,
+    e2e-runner, architect, tdd-guide, backend-patterns, doc-updater, planner and more
+    subagents...] for any  tasks, works.Make sure to don't implement (Forgetive Code).Make
+    sure to work with TTD (Test Driven Development)Make sure to Write Clean Code with
+    Self-Documenting Code.Make sure to Unit Testing.Make sure to Integration Testing.Make
+    sure to E2E (End to End) Testing.Make sure to You can't debug bad code, no matter
+    if it's you an AI agent.Make sure to Have clarity of System Design.Make sure to
+    Keep your code clean.
   # Enable streaming responses from the AI model
   streaming: true
   # Temperature setting for AI model responses (0.0-1.0)
-  temperature: 0.3
+  temperature: 0.0
   # Model ID to use for the agent. See /models command to list available models.
   modelId: auto
   # Enable the deep planning tool for complex task planning
-  enableDeepPlanTool: false
+  enableDeepPlanTool: true
   # Enable/disable experimental features
   experimental:
     # Enable/disable the agent to run in shadow mode. This will run the agent on
