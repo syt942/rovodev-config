@@ -141,7 +141,6 @@ toolPermissions:
 announcementTracking:
   announcementViewCounts:
     2b82cbeabae72a8568fc7c793403f0a7: 10
-    fead18730e82b77b8dd6fcc96d9c95b6: 5
 
 sessionFeedback:
   permanentlyDisabled: false
