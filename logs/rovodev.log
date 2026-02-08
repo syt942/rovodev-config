@@ -14453,3 +14453,117 @@ Context7 Documentation MCP Server v2.1.1 running on stdio
 2026-02-08 19:34:33.771 | 38051 | WARNING  | analytics_client/analytics_request.py:19: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
 
 2026-02-08 19:34:33.776 | 38051 | DEBUG    | Successfully sent event to Atlassian Analytics
+2026-02-08 19:34:33.831 | 38051 | DEBUG    | Successfully sent event to Atlassian Analytics
+2026-02-08 19:34:33.853 | 38051 | DEBUG    | Successfully sent event to Atlassian Analytics
+2026-02-08 19:34:34.017 | 38051 | DEBUG    | Sent event to api_gateway: rovodev llm completed
+2026-02-08 19:34:34.359 | 38051 | DEBUG    | Found mapper ToolEventMapper for span running tool
+2026-02-08 19:34:34.359 | 38051 | DEBUG    | Processing tool event with attributes: {'gen_ai.tool.name': 'bash', 'gen_ai.tool.call.id': 'toolu_vrtx_01Suc4EXruXFEjVbXg2S47Vj', 'tool_arguments': '{"command": "[Scrubbed due to \'session\']"}', 'logfire.msg': 'running tool: bash', 'logfire.json_schema': '{"type": "object", "properties": {"tool_arguments": {"type": "object"}, "tool_response": {"type": "object"}, "gen_ai.tool.name": {}, "gen_ai.tool.call.id": {}}}', 'logfire.span_type': 'span', 'tool_response': '[main 8d65944] Update config and session files\n Committer: root <root@runnervmwffz4.dtgqkisxqgbepg5izuxpskfqac.dx.internal.cloudapp.net>\nYour name and email address were configured automatically based\non your username and hostname. Please check that they are accurate.\nYou can suppress this message by setting them explicitly:\n\n    git config --global user.name "Your Name"\n    git config --global user.email you@example.com\n\nAfter doing this, you may fix the identity used for this commit with:\n\n    git commit --amend --reset-author\n\n 4 files changed, 4944 insertions(+), 20 deletions(-)\nTo https://github.com/syt942/rovodev-config.git\n ! [rejected]        main -> main (fetch first)\nerror: failed to push some refs to \'https://github.com/syt942/rovodev-config.git\'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: \'git pull\' before pushing again.\nhint: See the \'Note about fast-forwards\' in \'git push --help\' for details.', 'logfire.scrubbed': '[{"path": ["attributes", "tool_arguments", "command"], "matched_substring": "session"}]'}
+2026-02-08 19:34:34.372 | 38051 | DEBUG    | No mappers found for span 'running tool'
+2026-02-08 19:34:34.372 | 38051 | DEBUG    | No mappers found for span 'running tools'
+2026-02-08 19:34:34.372 | 38051 | DEBUG    | No mappers found for span 'running tools'
+2026-02-08 19:34:34.373 | 38051 | INFO     | Tool calls completed
+2026-02-08 19:34:34.373 | 38051 | INFO     | Model request - Parts: 1, Request #3
+2026-02-08 19:34:34.373 | 38051 | DEBUG    | Model request part: {"tool_name": "bash", "content": "[main 8d65944] Update config and session files\n Committer: root <root@runnervmwffz4.dtgqkisxqgbepg5izuxpskfqac.dx.internal.cloudapp.net>\nYour name and email address were configured automatically based\non your username and hostname. Please check that they are accurate.\nYou can suppress this message by setting them explicitly:\n\n    git config --global user.name \"Your Name\"\n    git config --global user.email you@example.com\n\nAfter doing this, you may fix the identity used for this commit with:\n\n    git commit --amend --reset-author\n\n 4 files changed, 4944 insertions(+), 20 deletions(-)\nTo https://github.com/syt942/rovodev-config.git\n ! [rejected]        main -> main (fetch first)\nerror: failed to push some refs to 'https://github.com/syt942/rovodev-config.git'\nhint: Updates were rejected because the remote contains work that you do not\nhint: have locally. This is usually caused by another repository pushing to\nhint: the same ref. If you want to integrate the remote changes, use\nhint: 'git pull' before pushing again.\nhint: See the 'Note about fast-forwards' in 'git push --help' for details.", "tool_call_id": "toolu_vrtx_01Suc4EXruXFEjVbXg2S47Vj", "metadata": null, "timestamp": "2026-02-08T19:34:34.372420+00:00", "part_kind": "tool-return"}
+2026-02-08 19:34:34.375 | 38051 | DEBUG    | No ROVODEV_SANDBOX_ID environment variable found
+2026-02-08 19:34:34.375 | 38051 | DEBUG    | Sending event to Atlassian Analytics: llm_tool_call completed
+2026-02-08 19:34:34.375 | 38051 | WARNING  | analytics_client/analytics_request.py:19: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+
+2026-02-08 19:34:34.403 | 38051 | INFO     | Model response streaming started
+2026-02-08 19:34:34.404 | 38051 | WARNING  | contextlib.py:105: DeprecationWarning: Use `streamable_http_client` instead.
+
+2026-02-08 19:34:34.477 | 38051 | DEBUG    | Successfully sent event to Atlassian Analytics
+2026-02-08 19:34:34.957 | 38051 | DEBUG    | Found mapper LLMEventMapper for span chat fallback:claude-opus-4-5@20251101,anthropic.claude-opus-4-5-20251101-v1:0,gpt-5.2-latest,claude-sonnet-4-5@20250929,claude-sonnet-4@20250514,gpt-5-latest
+2026-02-08 19:34:34.957 | 38051 | DEBUG    | Processing LLM event
+2026-02-08 19:34:34.969 | 38051 | DEBUG    | Found mapper LLMEventMapper for span chat fallback:claude-opus-4-5@20251101,anthropic.claude-opus-4-5-20251101-v1:0,gpt-5.2-latest,claude-sonnet-4-5@20250929,claude-sonnet-4@20250514,gpt-5-latest
+2026-02-08 19:34:34.970 | 38051 | DEBUG    | Processing LLM event
+2026-02-08 19:34:34.983 | 38051 | DEBUG    | No ROVODEV_SANDBOX_ID environment variable found
+2026-02-08 19:34:34.984 | 38051 | DEBUG    | Sending event to Atlassian Analytics: llm_call started
+2026-02-08 19:34:34.984 | 38051 | WARNING  | analytics_client/analytics_request.py:19: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+
+2026-02-08 19:34:34.985 | 38051 | DEBUG    | Applied model settings: {'max_tokens': 8192}
+2026-02-08 19:34:35.086 | 38051 | DEBUG    | Successfully sent event to Atlassian Analytics
+2026-02-08 19:34:35.248 | 38051 | DEBUG    | Sent event to api_gateway: rovodev llm started
+2026-02-08 19:34:38.014 | 38051 | DEBUG    | Found mapper LLMEventMapper for span chat claude-opus-4-5@20251101
+2026-02-08 19:34:38.014 | 38051 | DEBUG    | Found mapper AIResultEventMapper for span chat claude-opus-4-5@20251101
+2026-02-08 19:34:38.014 | 38051 | DEBUG    | Processing LLM event
+2026-02-08 19:34:38.026 | 38051 | DEBUG    | Processing aiResult viewed event for unified AI instrumentation
+2026-02-08 19:34:38.040 | 38051 | DEBUG    | No ROVODEV_SANDBOX_ID environment variable found
+2026-02-08 19:34:38.040 | 38051 | DEBUG    | Sending event to Atlassian Analytics: llm_call completed
+2026-02-08 19:34:38.040 | 38051 | DEBUG    | Found mapper LLMEventMapper for span chat claude-opus-4-5@20251101
+2026-02-08 19:34:38.040 | 38051 | DEBUG    | Processing LLM event
+2026-02-08 19:34:38.041 | 38051 | WARNING  | analytics_client/analytics_request.py:19: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+
+2026-02-08 19:34:38.042 | 38051 | DEBUG    | No ROVODEV_SANDBOX_ID environment variable found
+2026-02-08 19:34:38.043 | 38051 | DEBUG    | Sending event to Atlassian Analytics: aiResult viewed
+2026-02-08 19:34:38.057 | 38051 | INFO     | Model response streaming completed
+2026-02-08 19:34:38.058 | 38051 | INFO     | Model request completed
+2026-02-08 19:34:38.059 | 38051 | INFO     | Model response - Model: claude-opus-4-5-20251101, Parts: 2, Usage: {"input_tokens": 13927, "cache_write_tokens": 476, "cache_read_tokens": 13448, "output_tokens": 98, "input_audio_tokens": 0, "cache_audio_read_tokens": 0, "output_audio_tokens": 0, "details": {"cache_creation_input_tokens": 476, "cache_read_input_tokens": 13448, "input_tokens": 3, "output_tokens": 98}}
+2026-02-08 19:34:38.059 | 38051 | DEBUG    | Model response text: The commit was created successfully, but the push was rejected because the remote has changes that aren't in the local repository. Let me pull the remote changes and then push again.
+2026-02-08 19:34:38.059 | 38051 | INFO     | Model response tool call: bash
+2026-02-08 19:34:38.059 | 38051 | DEBUG    | Model response tool call: {"tool_name": "bash", "args": "{\"command\": \"git pull origin main --rebase && git push origin main\"}", "tool_call_id": "toolu_vrtx_017txY2RSnyFSceUcXTZeaup", "id": null, "provider_details": null, "part_kind": "tool-call"}
+2026-02-08 19:34:38.061 | 38051 | DEBUG    | No mappers found for span 'running tools'
+2026-02-08 19:34:38.061 | 38051 | DEBUG    | No mappers found for span 'running tools'
+2026-02-08 19:34:38.062 | 38051 | DEBUG    | Found mapper ToolEventMapper for span running tool
+2026-02-08 19:34:38.062 | 38051 | DEBUG    | Processing tool event with attributes: {'gen_ai.tool.name': 'bash', 'gen_ai.tool.call.id': 'toolu_vrtx_017txY2RSnyFSceUcXTZeaup', 'tool_arguments': '{"command": "git pull origin main --rebase && git push origin main"}', 'logfire.msg': 'running tool: bash', 'logfire.json_schema': '{"type": "object", "properties": {"tool_arguments": {"type": "object"}, "tool_response": {"type": "object"}, "gen_ai.tool.name": {}, "gen_ai.tool.call.id": {}}}', 'logfire.span_type': 'span'}
+2026-02-08 19:34:38.079 | 38051 | DEBUG    | No mappers found for span 'running tool'
+2026-02-08 19:34:38.080 | 38051 | DEBUG    | No ROVODEV_SANDBOX_ID environment variable found
+2026-02-08 19:34:38.081 | 38051 | DEBUG    | Sending event to Atlassian Analytics: llm_tool_call started
+2026-02-08 19:34:38.081 | 38051 | WARNING  | analytics_client/analytics_request.py:19: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+
+2026-02-08 19:34:38.096 | 38051 | DEBUG    | Found mapper ToolEventMapper for span running tool
+2026-02-08 19:34:38.096 | 38051 | DEBUG    | Processing tool event with attributes: {'gen_ai.tool.name': 'bash', 'gen_ai.tool.call.id': 'toolu_vrtx_017txY2RSnyFSceUcXTZeaup', 'tool_arguments': '{"command": "git pull origin main --rebase && git push origin main"}', 'logfire.msg': 'running tool: bash', 'logfire.json_schema': '{"type": "object", "properties": {"tool_arguments": {"type": "object"}, "tool_response": {"type": "object"}, "gen_ai.tool.name": {}, "gen_ai.tool.call.id": {}}}', 'logfire.span_type': 'span', 'tool_response': 'error: cannot pull with rebase: You have unstaged changes.\nerror: Please commit or stash them.'}
+2026-02-08 19:34:38.112 | 38051 | DEBUG    | No mappers found for span 'running tool'
+2026-02-08 19:34:38.112 | 38051 | DEBUG    | No mappers found for span 'running tools'
+2026-02-08 19:34:38.112 | 38051 | DEBUG    | No mappers found for span 'running tools'
+2026-02-08 19:34:38.112 | 38051 | INFO     | Tool calls completed
+2026-02-08 19:34:38.113 | 38051 | INFO     | Model request - Parts: 1, Request #4
+2026-02-08 19:34:38.113 | 38051 | DEBUG    | Model request part: {"tool_name": "bash", "content": "error: cannot pull with rebase: You have unstaged changes.\nerror: Please commit or stash them.", "tool_call_id": "toolu_vrtx_017txY2RSnyFSceUcXTZeaup", "metadata": null, "timestamp": "2026-02-08T19:34:38.112160+00:00", "part_kind": "tool-return"}
+2026-02-08 19:34:38.138 | 38051 | DEBUG    | Adding empty todo list reminder after 5 tool calls
+2026-02-08 19:34:38.138 | 38051 | INFO     | Model response streaming started
+2026-02-08 19:34:38.139 | 38051 | WARNING  | contextlib.py:105: DeprecationWarning: Use `streamable_http_client` instead.
+
+2026-02-08 19:34:38.152 | 38051 | DEBUG    | Successfully sent event to Atlassian Analytics
+2026-02-08 19:34:38.157 | 38051 | DEBUG    | No ROVODEV_SANDBOX_ID environment variable found
+2026-02-08 19:34:38.157 | 38051 | DEBUG    | Sending event to Atlassian Analytics: llm_tool_call completed
+2026-02-08 19:34:38.157 | 38051 | WARNING  | analytics_client/analytics_request.py:19: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+
+2026-02-08 19:34:38.175 | 38051 | DEBUG    | Successfully sent event to Atlassian Analytics
+2026-02-08 19:34:38.205 | 38051 | DEBUG    | Sent event to api_gateway: rovodev llm completed
+2026-02-08 19:34:38.210 | 38051 | DEBUG    | Successfully sent event to Atlassian Analytics
+2026-02-08 19:34:38.264 | 38051 | DEBUG    | Successfully sent event to Atlassian Analytics
+2026-02-08 19:34:38.675 | 38051 | DEBUG    | Found mapper LLMEventMapper for span chat fallback:claude-opus-4-5@20251101,anthropic.claude-opus-4-5-20251101-v1:0,gpt-5.2-latest,claude-sonnet-4-5@20250929,claude-sonnet-4@20250514,gpt-5-latest
+2026-02-08 19:34:38.675 | 38051 | DEBUG    | Processing LLM event
+2026-02-08 19:34:38.688 | 38051 | DEBUG    | Found mapper LLMEventMapper for span chat fallback:claude-opus-4-5@20251101,anthropic.claude-opus-4-5-20251101-v1:0,gpt-5.2-latest,claude-sonnet-4-5@20250929,claude-sonnet-4@20250514,gpt-5-latest
+2026-02-08 19:34:38.688 | 38051 | DEBUG    | Processing LLM event
+2026-02-08 19:34:38.696 | 38051 | DEBUG    | No ROVODEV_SANDBOX_ID environment variable found
+2026-02-08 19:34:38.696 | 38051 | DEBUG    | Sending event to Atlassian Analytics: llm_call started
+2026-02-08 19:34:38.696 | 38051 | WARNING  | analytics_client/analytics_request.py:19: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+
+2026-02-08 19:34:38.705 | 38051 | DEBUG    | Applied model settings: {'max_tokens': 8192}
+2026-02-08 19:34:38.798 | 38051 | DEBUG    | Successfully sent event to Atlassian Analytics
+2026-02-08 19:34:38.850 | 38051 | DEBUG    | Sent event to api_gateway: rovodev llm started
+2026-02-08 19:34:41.099 | 38051 | DEBUG    | Found mapper LLMEventMapper for span chat claude-opus-4-5@20251101
+2026-02-08 19:34:41.099 | 38051 | DEBUG    | Found mapper AIResultEventMapper for span chat claude-opus-4-5@20251101
+2026-02-08 19:34:41.099 | 38051 | DEBUG    | Processing LLM event
+2026-02-08 19:34:41.112 | 38051 | DEBUG    | Processing aiResult viewed event for unified AI instrumentation
+2026-02-08 19:34:41.121 | 38051 | DEBUG    | No ROVODEV_SANDBOX_ID environment variable found
+2026-02-08 19:34:41.121 | 38051 | DEBUG    | Sending event to Atlassian Analytics: llm_call completed
+2026-02-08 19:34:41.127 | 38051 | DEBUG    | Found mapper LLMEventMapper for span chat claude-opus-4-5@20251101
+2026-02-08 19:34:41.127 | 38051 | DEBUG    | Processing LLM event
+2026-02-08 19:34:41.128 | 38051 | DEBUG    | No ROVODEV_SANDBOX_ID environment variable found
+2026-02-08 19:34:41.128 | 38051 | DEBUG    | Sending event to Atlassian Analytics: aiResult viewed
+2026-02-08 19:34:41.145 | 38051 | INFO     | Model response streaming completed
+2026-02-08 19:34:41.145 | 38051 | INFO     | Model request completed
+2026-02-08 19:34:41.146 | 38051 | INFO     | Model response - Model: claude-opus-4-5-20251101, Parts: 2, Usage: {"input_tokens": 14125, "cache_write_tokens": 198, "cache_read_tokens": 13924, "output_tokens": 94, "input_audio_tokens": 0, "cache_audio_read_tokens": 0, "output_audio_tokens": 0, "details": {"cache_creation_input_tokens": 198, "cache_read_input_tokens": 13924, "input_tokens": 3, "output_tokens": 94}}
+2026-02-08 19:34:41.146 | 38051 | DEBUG    | Model response text: There are unstaged changes appearing after the commit. Let me stash them, pull, and then push.
+2026-02-08 19:34:41.146 | 38051 | INFO     | Model response tool call: bash
+2026-02-08 19:34:41.147 | 38051 | DEBUG    | Model response tool call: {"tool_name": "bash", "args": "{\"command\": \"git stash && git pull origin main --rebase && git push origin main && git stash pop\"}", "tool_call_id": "toolu_vrtx_01U7ZV2BHvE11B9z6yXkKrCh", "id": null, "provider_details": null, "part_kind": "tool-call"}
+2026-02-08 19:34:41.149 | 38051 | DEBUG    | No mappers found for span 'running tools'
+2026-02-08 19:34:41.149 | 38051 | DEBUG    | No mappers found for span 'running tools'
+2026-02-08 19:34:41.149 | 38051 | DEBUG    | Found mapper ToolEventMapper for span running tool
+2026-02-08 19:34:41.149 | 38051 | DEBUG    | Processing tool event with attributes: {'gen_ai.tool.name': 'bash', 'gen_ai.tool.call.id': 'toolu_vrtx_01U7ZV2BHvE11B9z6yXkKrCh', 'tool_arguments': '{"command": "git stash && git pull origin main --rebase && git push origin main && git stash pop"}', 'logfire.msg': 'running tool: bash', 'logfire.json_schema': '{"type": "object", "properties": {"tool_arguments": {"type": "object"}, "tool_response": {"type": "object"}, "gen_ai.tool.name": {}, "gen_ai.tool.call.id": {}}}', 'logfire.span_type': 'span'}
+2026-02-08 19:34:41.171 | 38051 | DEBUG    | No mappers found for span 'running tool'
+2026-02-08 19:34:41.173 | 38051 | DEBUG    | No ROVODEV_SANDBOX_ID environment variable found
+2026-02-08 19:34:41.173 | 38051 | DEBUG    | Sending event to Atlassian Analytics: llm_tool_call started
+2026-02-08 19:34:41.174 | 38051 | WARNING  | analytics_client/analytics_request.py:19: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+
