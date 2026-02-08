@@ -1,0 +1,121 @@
+
+# 2026-02-08 15:50:20.048652
++/models 
+
+# 2026-02-08 15:51:17.197682
++/config 
+
+# 2026-02-08 15:56:55.914553
++/models 
+
+# 2026-02-08 15:57:23.159771
++install vs code
+
+# 2026-02-08 15:58:16.098624
++/models 
+
+# 2026-02-08 15:58:35.842227
++/new 
+
+# 2026-02-08 15:58:54.909176
++install vs code and launch
+
+# 2026-02-08 16:07:28.253375
++see vs code and install it and launch it
+
+# 2026-02-08 16:09:43.639243
++/models 
+
+# 2026-02-08 18:37:02.492327
++find all epics in codebase ya project and read it. and remebar it.   with use mcps tools memory, sequential thinking, context7 and  use subagents. you don't direct working you use only only all subagents e.g. [code-reviewer, security-reviewer, coding-standards, tdd-workflow, refactor-cleaner, build-error-resolver, e2e-runner, architect, tdd-guide, backend-patterns, doc-updater, planner, can't-debug-bad-code, Clean-code-with-self-documenting-code, clarity-of-System-Design, code-clean, Forgetive-code-reviewer and more subagents...] for any  tasks, works.
+
+# 2026-02-08 18:41:53.524114
++ignore all sonarQube issue
+
+# 2026-02-08 18:43:20.260117
++1 3
+
+# 2026-02-08 18:47:14.770970
++/subagents 
+
+# 2026-02-08 18:49:15.611126
++/subagents 
+
+# 2026-02-08 18:50:08.160401
++/subagents 
+
+# 2026-02-08 18:51:12.185060
++/subagents 
+
+# 2026-02-08 18:52:09.273008
++/subagents 
+
+# 2026-02-08 18:53:05.949599
++/subagents 
+
+# 2026-02-08 18:54:14.079817
++/subagents 
+
+# 2026-02-08 18:55:14.230063
++/subagents 
+
+# 2026-02-08 18:56:47.289579
++/subagents 
+
+# 2026-02-08 18:57:36.509383
++/subagents 
+
+# 2026-02-08 18:58:27.559579
++/subagents 
+
+# 2026-02-08 18:59:19.350128
++/subagents 
+
+# 2026-02-08 19:00:32.680203
++/subagents 
+
+# 2026-02-08 19:01:38.465674
++/subagents 
+
+# 2026-02-08 19:02:34.831015
++/subagents 
+
+# 2026-02-08 19:03:19.900865
++/subagents 
+
+# 2026-02-08 19:04:09.770868
++/subagents 
+
+# 2026-02-08 19:04:58.351020
++/subagents 
+
+# 2026-02-08 19:06:01.910551
++/subagents 
+
+# 2026-02-08 19:07:25.800804
++/subagents 
+
+# 2026-02-08 19:08:25.000336
++/subagents 
+
+# 2026-02-08 19:09:08.008527
++/subagents 
+
+# 2026-02-08 19:13:13.909024
++commit push to syt942/rovodev-config
+
+# 2026-02-08 19:15:00.586312
++push using gh cli only
+
+# 2026-02-08 19:17:45.895993
++run gh auth status
+
+# 2026-02-08 19:19:52.909642
++root@runnervmwffz4:~# gh auth status
++github.com
++  ✓ Logged in to github.com account syt942 (/home/runner/.config/gh/hosts.yml)
++  - Active account: true
++  - Git operations protocol: https
++  - Token: gho_************************************
++  - Token scopes: 'gist', 'read:org', 'repo', 'workflow'
++root@runnervmwffz4:~#
