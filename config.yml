@@ -32,7 +32,7 @@ agent:
   # Temperature setting for AI model responses (0.0-1.0)
   temperature: 0.0
   # Model ID to use for the agent. See /models command to list available models.
-  modelId: claude-opus-4-6
+  modelId: claude-opus-4-5@20251101
   # Enable the deep planning tool for complex task planning
   enableDeepPlanTool: true
   # Enable/disable experimental features
@@ -119,7 +119,7 @@ mcp:
 # Tool and command permission settings
 toolPermissions:
   # Default permission for tools not explicitly listed
-  default: allow
+  default: ask
   # Permission settings for specific tools
   tools:
     create_file: ask
@@ -132,7 +132,7 @@ toolPermissions:
     grep: allow
   bash:
     # Default permission for bash commands not explicitly listed
-    default: allow
+    default: ask
     # List of specific bash commands with their permission settings
     commands:
     - command: ls(\s.*)?
@@ -143,10 +143,14 @@ toolPermissions:
       permission: allow
     - command: pwd
       permission: allow
+    - command: git(\s.*)?
+      permission: allow
+    - command: gh auth status 2>&1
+      permission: allow
     # Run bash commands in a sandboxed environment - currently available for
     # MacOS and Linux only. Enabling this option for Windows will prevent the
     # agent from running powershell commands.
-    runInSandbox: true
+    runInSandbox: false
     # Environment variables to set when running bash commands. Env vars are
     # automatically inherited from the user's environment, except for sensitive
     # variables such as API tokens and passwords. Use this config to set
@@ -159,7 +163,7 @@ toolPermissions:
 
 announcementTracking:
   announcementViewCounts:
-    e90cdd9b6cb141039031c5c5d7080aa1: 7
+    e90cdd9b6cb141039031c5c5d7080aa1: 9
 
 sessionFeedback:
   permanentlyDisabled: false
